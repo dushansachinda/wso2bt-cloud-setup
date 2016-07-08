@@ -32,7 +32,7 @@
         <Priority>10</Priority>
         <Config>
             <Parameter name="LoginPage">/carbon/admin/login.jsp</Parameter>
-            <Parameter name="ServiceProviderID">carbonServer</Parameter>
+            <Parameter name="ServiceProviderID">dss_server</Parameter>
             <Parameter name="IdentityProviderSSOServiceURL">https://bt.qsp.is:9443/samlsso</Parameter>
             <Parameter name="NameIDPolicyFormat">urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</Parameter>
             <Parameter name="AssertionConsumerServiceURL">https://bt.qsp.dss:9448/acs</Parameter>
