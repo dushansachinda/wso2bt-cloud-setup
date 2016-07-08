@@ -81,6 +81,20 @@ services:
       - "9447:9443"
     environment:
       - SLEEP=1600 
+      
+   dss:
+    container_name: dss
+    depends_on: 
+      - dbms
+      - identity
+    build:
+      context: .
+      dockerfile: dss/Dockerfile
+    ports:
+      - "9768:9768"
+      - "9448:9448"
+    environment:
+      - SLEEP=1600 
  
 
   
