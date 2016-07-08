@@ -10,7 +10,7 @@ RUN cd wso2/ && \
 COPY dss/carbon/ /mnt/wso2/carbon-home/
 
 COPY artifacts/mysql-connector-java-5.1.34-bin.jar /wso2/wso2dss-3.5.0/repository/components/lib/
-COPY dss/carbon/ /wso2/wso2esb-4.9.0/
+COPY dss/carbon/ /wso2/wso2dss-3.5.0/
 
 
 CMD ["sh", "/wso2/wso2dss-3.5.0/bin/wso2server.sh"]
