@@ -82,7 +82,7 @@ services:
     environment:
       - SLEEP=1600 
       
-   dss:
+  dss:
     container_name: dss
     depends_on: 
       - dbms
