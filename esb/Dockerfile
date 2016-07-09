@@ -1,4 +1,4 @@
-FROM dushansachinda/ubuntu-java
+FROM dushansachinda/ubuntu-java:1.0
 
 RUN mkdir wso2 
 
