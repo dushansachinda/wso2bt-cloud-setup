@@ -1,4 +1,4 @@
-FROM nuwanbando/javabase
+FROM dushansachinda/ubuntu-java
 
 RUN mkdir wso2 
 
