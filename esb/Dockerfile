@@ -1,5 +1,5 @@
-FROM dushansachinda/ubuntu-java:1.0
-#FROM nuwanbando/javabase
+#FROM dushansachinda/ubuntu-java:1.0
+FROM nuwanbando/javabase
 RUN mkdir wso2 
 
 COPY packs/wso2esb-4.9.0.zip wso2/
