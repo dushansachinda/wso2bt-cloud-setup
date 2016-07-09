@@ -10,6 +10,7 @@ RUN cd wso2/ && \
 COPY esb/carbon/ /mnt/wso2/carbon-home/
 
 COPY artifacts/mysql-connector-java-5.1.34-bin.jar /wso2/wso2esb-4.9.0/repository/components/lib/
+COPY esb/artifact/lib/ /wso2/wso2esb-4.9.0/repository/components/lib/
 COPY esb/carbon/ /wso2/wso2esb-4.9.0/
 
 
